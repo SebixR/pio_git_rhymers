@@ -37,4 +37,12 @@ public class IntLinkedList {
         return ret;
     }
 
+    public Node getLast() {
+        return last;
+    }
+
+    public int getI() {
+        return i;
+    }
+
 }

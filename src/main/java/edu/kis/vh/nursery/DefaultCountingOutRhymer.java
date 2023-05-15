@@ -8,6 +8,9 @@ public class DefaultCountingOutRhymer {
 
 	private final int[] numbers = new int[CAPACITY];
 
+    public int getTotal() {
+        return total;
+    }
 
     private int total = INT;
 
